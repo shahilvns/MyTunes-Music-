@@ -1,0 +1,148 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* header section */
+.headercontinar{
+    background-color: rgba(24, 23, 23, 0.799);
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(31, 30, 30);
+    position: fixed;
+}
+nav ul li{
+    display: inline;
+    position: relative;
+    top: 15px;
+    margin-left: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 12px 10px;
+}
+nav ul li a:hover{
+    background-color: rgb(50, 48, 48);
+}
+/* Main Section */
+.maincontinarone{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(83, 208, 118);
+    background-image: url(hannu-pekka-peuranen-wN1CH6Ferbg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.maincontinarone #text{
+    text-align: center;
+    position: relative;
+    top: 300px;
+    left: 0px;
+    color: white;
+}
+/* Main Continar Two */
+.maincontinartwo{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+    padding: 100px 0px;
+}
+.maincontinartwo #texttwo{
+    text-align: center;
+    position: relative;
+    color: white;
+}
+button{
+    height: 40px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    margin: 20px;
+}
+/* Main Continar three */
+.maincontinarthree{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(247, 244, 240);
+    text-align: center;
+    padding: 30px 0px;
+}
+.maincontinarthree h2{
+    text-align: center;
+    padding: 40px 0px;
+}
+.maincontinarthree p{
+    text-align: center;
+}
+.maincontinarthree a{
+    height: 40px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+/* Main Continar Four */
+.maincontinarfour{
+    height: 500px;
+    width: 100%;
+    background-color: burlywood;
+    background-image: url(flower.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.maincontinarfour h2{
+    padding: 40px 0px;
+}
+/* Main Continar Five */
+.maincontinarfive{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+}
+.maincontinarfive .box{
+    text-align: justify;
+    position: relative;
+    left: 800px;
+    padding: 20px 0px;
+}
+.maincontinarfive h2{
+    padding: 20px 0px;
+}
+.maincontinarfive p{
+    padding: 20px 0px;
+}
+/* Footer Section  */
+footer div{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(26, 24, 24);
+    color: white;
+}
+footer div ul li{
+    list-style-type: none;
+}
+footer div ul strong a{
+    text-decoration: none;
+    color: white;
+}
+footer div ul li a{
+    text-decoration: none;
+    color: white;
+}
+.Copyright{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(49, 47, 47);
+    text-align: center;
+}
